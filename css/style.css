@@ -82,45 +82,18 @@ header hr{
 }
 
 .list{
+	max-width: 100%;
 	margin-top: 30px;
-	margin-bottom: 50px;
-}
-
-.list-item{
-	width: 100%;
-	height:55px;
-	padding: 0 15px 0 15px;
-	border-top: 1px solid #131313;
 	font-family: 'Abel', sans-serif;
 	font-size: 1.5em;
-	text-transform: uppercase;
-	color: #131313;
-	line-height: 55px;
 }
 
-.item-text{
-	width: 80%;
-	float: left;
+.list li{
+	padding: 20px 15px 20px 15px;
+	border-top: 1px solid #131313;
 }
 
-.list-item:last-child{
+.list li:last-child{
 	border-bottom: 1px solid #131313;
-}
-
-.action-buttons{
-	float: right;
-	display: inline;
-}
-
-.btn-checked, .btn-checked-over{
-	cursor: pointer;
-}
-
-.btn-deleted, .btn-deleted-over{
-	margin-left: 10px;
-	cursor: pointer;
-}
-
-.btn-checked-over, .btn-deleted-over{
-	display: none;
+	margin-bottom: 50px;
 }
