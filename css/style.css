@@ -112,6 +112,15 @@ header hr{
 	display: inline;
 }
 
-.btn-deleted{
+.btn-checked, .btn-checked-over{
+	cursor: pointer;
+}
+
+.btn-deleted, .btn-deleted-over{
 	margin-left: 10px;
+	cursor: pointer;
+}
+
+.btn-checked-over, .btn-deleted-over{
+	display: none;
 }
