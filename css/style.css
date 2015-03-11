@@ -97,3 +97,36 @@ header hr{
 	border-bottom: 1px solid #131313;
 	margin-bottom: 50px;
 }
+
+.mark{
+	color: #999;
+	text-decoration: line-through;
+}
+
+.btn_check{
+	background-image: url("../images/checked.gif");
+	width: 22px;
+	height: 22px;
+	cursor: pointer;
+}
+
+.btn_check:hover{
+	background-image: url("../images/checked_animated.gif");
+}
+
+.btn_delete{
+	background-image: url("../images/deleted.gif");
+	width: 22px;
+	height: 22px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.btn_delete:hover{
+	background-image: url("../images/deleted_animated.gif");
+}
+
+.btn_check, .btn_delete{
+	display: inline-block;
+	float: right;
+}
